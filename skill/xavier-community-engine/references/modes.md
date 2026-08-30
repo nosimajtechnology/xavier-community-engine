@@ -9,11 +9,10 @@
 | `SCENE` | connected short scene | 8–15 seconds |
 | `BUMPER` | ident, found clip, interstitial | 4–10 seconds |
 | `FAKE_AD` | PSA, commercial, tutorial, guru pitch | 8–15 seconds |
-| `RENEGADE_CLIP` | edited short-form story | 8–45 seconds, 60 maximum |
 | `EPISODE` | progressive mini-episode | 30–60 seconds or four boards |
 | `REPAIR` | smallest correction | failed layer only |
 
-Infer the smallest fitting mode. A one-image request remains one image. `Shillz submission` routes to `RENEGADE_CLIP` plus the optional campaign reference. `Fix the snake arm` routes to `REPAIR`. `Lost PS2 episode` routes to `EPISODE`.
+Infer the smallest fitting mode. A one-image request remains one image. `Fix the snake arm` routes to `REPAIR`. `Lost PS2 episode` routes to `EPISODE`.
 
 ## Approval gates
 
@@ -22,4 +21,3 @@ Infer the smallest fitting mode. A one-image request remains one image. `Shillz 
 - multi-shot modes: Genesis Frame approval before boarding.
 - provider prompt: storyboard approval first unless the user explicitly requests prompt-only or supplies an already approved board.
 - `EPISODE`: approve each progressive board before the next.
-

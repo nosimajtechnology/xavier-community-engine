@@ -11,7 +11,7 @@
 7. Ask for Genesis Frame approval for multi-shot work.
 8. Build connected boards or a motion brief after approval.
 9. Ask for storyboard approval before provider-specific compression.
-10. Deliver the final prompt package and optional campaign checklist.
+10. Deliver the final prompt package.
 
 Ask no more than one question when a missing answer materially changes the output.
 
@@ -30,4 +30,3 @@ Diagnose before changing anything. Preserve approved identity, framing, geograph
 ## Genesis Frame gate
 
 Lock Xavier's orientation, scene geography, opening action, camera, rendering sources and roles, palette/time, supporting subjects/props, must-not-change constraints, and crop safety. One isolated issue may receive one narrow automatic repair. Do not board a failed frame.
-

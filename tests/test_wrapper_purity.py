@@ -14,10 +14,9 @@ class WrapperPurityTests(unittest.TestCase):
 
     def test_root_wrapper_does_not_duplicate_behavior(self):
         text = (ROOT / "SKILL.md").read_text(encoding="utf-8").casefold()
-        for phrase in ("preserve xavier", "ground before generation", "campaign thesis", "repair priority"):
+        for phrase in ("preserve xavier", "ground before generation", "repair priority"):
             self.assertNotIn(phrase, text)
 
 
 if __name__ == "__main__":
     unittest.main()
-

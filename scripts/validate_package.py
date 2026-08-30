@@ -39,7 +39,7 @@ REQUIRED_PACKAGE = (
     "references/canon.md", "references/community-tone.md", "references/modes.md",
     "references/workflows.md", "references/continuity.md",
     "references/rendering-grounding.md", "references/premise-design.md",
-    "references/dialogue-and-wordplay.md", "references/campaign-guidelines.md",
+    "references/dialogue-and-wordplay.md",
     "references/safety-and-rights.md", "references/model-adapters.md",
     "references/repair.md",
 )
@@ -112,7 +112,7 @@ def validate_core() -> None:
         fail("root SKILL.md is too large for a compatibility pointer")
     if f"skill/{NAME}/SKILL.md" not in root_text or "compatibility" not in root_text.casefold():
         fail("root SKILL.md does not delegate to the nested behavioral source")
-    forbidden_root_terms = ("Ground every", "Preserve Xavier", "Campaign route", "Repair narrowly")
+    forbidden_root_terms = ("Ground every", "Preserve Xavier", "Repair narrowly")
     if any(term.casefold() in root_text.casefold() for term in forbidden_root_terms):
         fail("root SKILL.md contains behavioral instructions")
 
@@ -194,4 +194,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

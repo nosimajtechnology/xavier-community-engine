@@ -19,12 +19,13 @@ class ReferenceResolutionTests(unittest.TestCase):
                 target.relative_to(PACKAGE.resolve())
                 self.assertTrue(target.exists(), f"{source}: {raw}")
 
-    def test_campaign_is_explicitly_optional(self):
+    def test_premise_guidance_is_show_shaped(self):
         skill = (PACKAGE / "SKILL.md").read_text(encoding="utf-8").casefold()
-        self.assertIn("only activate campaign behavior when requested", skill)
-        self.assertIn("do not load the campaign route into ordinary fan work", skill)
+        premise = (PACKAGE / "references" / "premise-design.md").read_text(encoding="utf-8").casefold()
+        self.assertIn("make the situation stranger or worse", skill)
+        self.assertIn("reality starts obeying his bad logic", premise)
+        self.assertIn("should not feel like a tidy riddle", premise)
 
 
 if __name__ == "__main__":
     unittest.main()
-

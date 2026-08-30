@@ -1,11 +1,31 @@
 # Example Ideas
 
-- Xavier helps a parking meter find purpose; it begins measuring how long people have left emotionally.
-- A store clerk says the return policy is final, so Xavier tries to return the concept of finality.
-- Xavier carries a stranger's emotional baggage until each bag becomes a heavier physical memory.
-- A captionless close-up where Xavier realizes tomorrow has been arriving all day.
-- A public-access bumper in which Xavier rotates like a broken PS2 model viewer while the environment refuses to stay still.
-- A fake self-help ad where one sincere category mistake turns a mundane problem into a visible consequence.
-- A recursive-double scene where each Xavier believes the other is the original misunderstanding.
-- A Shillz-ready 15-second scene whose story works without the final $XAVIER end card.
+Keep it simple. One strange problem and one very confident Xavier are enough.
+
+- Xavier sees a man arguing with his reflection and tries to separate them.
+- Xavier adopts a pothole because he thinks it was abandoned.
+- Xavier enters a town where questions are illegal and asks why.
+- Xavier tries to free a man from his own shadow.
+- Xavier helps a lost tourist by moving the road.
+- Xavier finds a scarecrow that wants to quit its job.
+- Xavier tries to return a broken promise to the person who made it.
+- Xavier finds a town waiting for a sign and pulls down the nearest road sign.
+- Xavier meets a man hiding from himself and offers to distract the wrong one.
+- Xavier tries to teach a locked door how to open its mind.
+- Xavier follows footprints that keep appearing in front of him.
+- Xavier discovers a second Xavier giving better advice across the street.
+
+Add a format when you want one:
+
+```text
+Make it one image.
+```
+
+```text
+Make it a 12-second PS2-style scene.
+```
+
+```text
+Make it a strange public-access bumper.
+```
 

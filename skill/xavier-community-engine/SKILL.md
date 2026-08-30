@@ -1,6 +1,6 @@
 ---
 name: xavier-community-engine
-description: "Create and repair recognizable Xavier: Renegade Angel fan media using the locked canonical model, causal surrealist story logic, original-PS2 environmental grounding, continuity controls, and an optional token-secondary campaign route. Use for reference studies, stills, memes, scenes, bumpers, fake ads, storyboards, episodes, image-to-video prompts, and repair."
+description: "Create and repair recognizable Xavier: Renegade Angel fan media using the locked canonical model, show-grounded surreal story logic, original-PS2 environmental grounding, continuity controls, and narrow repair. Use for reference studies, stills, memes, scenes, bumpers, fake ads, storyboards, episodes, image-to-video prompts, and repair."
 ---
 
 # Xavier Community Engine v1.0.0
@@ -18,7 +18,6 @@ When invoked without an idea, show this compact start:
 > **STILL / MEME** — one finished image  
 > **SCENE / MINI** — a connected short event  
 > **BUMPER / FAKE AD** — interstitial or commercial  
-> **RENEGADE CLIP** — edited short-form concept  
 > **EPISODE** — progressive longer story  
 > **REPAIR** — fix only what drifted
 >
@@ -36,12 +35,11 @@ Then read:
 - PS2, gameplay, scene image, storyboard, or visual-fidelity work: [rendering-grounding.md](references/rendering-grounding.md)
 - an original scene, joke, caption, or dialogue: [premise-design.md](references/premise-design.md), [dialogue-and-wordplay.md](references/dialogue-and-wordplay.md), and [community-tone.md](references/community-tone.md)
 - approved visuals, multi-shot work, or project revisions: [continuity.md](references/continuity.md)
-- campaign, Shillz, submission, token, or $XAVIER request: [campaign-guidelines.md](references/campaign-guidelines.md)
 - public delivery, user-supplied media, audio, or packaging: [safety-and-rights.md](references/safety-and-rights.md)
 - provider-specific motion prompt: [model-adapters.md](references/model-adapters.md), but only after storyboard approval or when explicitly requested
 - a failed generation or correction request: [repair.md](references/repair.md)
 
-Do not load the campaign route into ordinary fan work. Do not load every reference for a simple request.
+Do not load every reference for a simple request.
 
 ## Apply authority without blending it
 
@@ -64,7 +62,7 @@ Lock long blond slab-like hair; brown fur; yellow bird-like beak; cyan-blue anat
 
 Never redraw, enhance, crop, denoise, upscale, re-light, re-encode, or silently replace the bundled image. When references are supported, attach it as the highest identity authority.
 
-Reject a normal human nose, muzzle, two ordinary hands, detached snake, snake on the wrong side, symmetric eyes, forward human knees, added or duplicated limbs, generic satyr/deer/bird/faun/shaman treatment, invented stereotyped regalia, polished musculature, heroic beautification, PBR surfaces, strand hair or fur, modern clothing, armor, logos, tickers, or token branding.
+Reject a normal human nose, muzzle, two ordinary hands, detached snake, snake on the wrong side, symmetric eyes, forward human knees, added or duplicated limbs, generic satyr/deer/bird/faun/shaman treatment, invented stereotyped regalia, polished musculature, heroic beautification, PBR surfaces, strand hair or fur, modern clothing, armor, or unrequested logos.
 
 ## Translate the world, not Xavier
 
@@ -74,7 +72,9 @@ PS2 references may control environment geometry, gameplay camera, NPC/prop budge
 
 ## Build causal absurdity
 
-Use one ordinary problem, Xavier's sincere misreading, one semantic hinge, a literalized consequence, and one readable reversal. Each beat must cause the next. Xavier should believe he is helping.
+Start with a simple person, place, or problem Xavier believes needs him. Let him misunderstand it through grand spiritual certainty, commit fully to the wrong solution, and make the situation stranger or worse. Each beat should follow from what he just did. Reality may eventually accept his bad logic as fact. End on a clear consequence that Xavier misreads as success, blames on someone else, or simply walks away from.
+
+Wordplay supports the action; it does not need to be the entire premise. Avoid tidy one-pun fables, generic inspirational captions, and random collections of surreal objects.
 
 Write original dialogue structurally compatible with sincere pseudo-wisdom, recursion, false equivalence, malapropism, portmanteau, or category confusion. Prefer one strong evolving idea to unrelated puns. Never reproduce recognizable passages or ask for a named performer's voice imitation.
 
@@ -92,13 +92,9 @@ Create a model-neutral motion brief before a provider adapter. Preserve referenc
 
 Default to ambient game-world sound or SFX only. Do not add show music, ripped dialogue, or a music instruction when the user requests `NO music`. Never invent a provider limit; obey a user-supplied limit or verified current documentation.
 
-## Keep the campaign route isolated
-
-Only activate campaign behavior when requested. Xavier is the clip; the token is secondary. The story must work while muted and without the token treatment. Use at most one secondary cashtag or end card unless the active brief explicitly requires otherwise. Reject charts, price claims, guarantees, fake contract addresses, unedited show dumps, stolen edits, paid engagement, foreign watermarks, or Xavier used as static token wallpaper.
-
 ## Repair narrowly
 
-Diagnose the failed layer first. Repair in this order: identity; anatomy/asymmetry; action continuity; geography/screen direction; rendering fidelity; premise causality; dialogue density; caption/token treatment; finish.
+Diagnose the failed layer first. Repair in this order: identity; anatomy/asymmetry; action continuity; geography/screen direction; rendering fidelity; premise causality; dialogue density; captions or text; finish.
 
 Use:
 

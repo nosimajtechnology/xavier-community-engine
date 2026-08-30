@@ -14,8 +14,8 @@ class StructureTests(unittest.TestCase):
         for name in (
             "canon.md", "community-tone.md", "modes.md", "workflows.md",
             "continuity.md", "rendering-grounding.md", "premise-design.md",
-            "dialogue-and-wordplay.md", "campaign-guidelines.md",
-            "safety-and-rights.md", "model-adapters.md", "repair.md",
+            "dialogue-and-wordplay.md", "safety-and-rights.md",
+            "model-adapters.md", "repair.md",
         ):
             self.assertTrue((PACKAGE / "references" / name).is_file())
             self.assertIn(name, skill)
@@ -27,4 +27,3 @@ class StructureTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
