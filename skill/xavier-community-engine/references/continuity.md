@@ -11,15 +11,15 @@ Maintain a compact ledger for every multi-shot task:
 - action/momentum state at every cut
 - damage, deformation, expression, and wardrobe state
 - PS2 source roles, rendering ceiling, light, fog, palette, and capture behavior
-- dialogue, caption, audio, and campaign state
+- dialogue, caption, and audio state
 
 Continuity has four independent dimensions: identity, spatial geography, action causality, and rendering. A later shot changes only what the story explicitly changes.
 
 ## Storyboard record
 
-For every shot record duration, inherited start frame, camera motion, exact Xavier action, supporting action, semantic hinge or visual joke, end state passed forward, continuity checks, and dialogue/caption/audio.
+For every shot record duration, inherited start frame, camera motion, exact Xavier action, supporting action, central misunderstanding or visual joke, end state passed forward, continuity checks, and dialogue/caption/audio.
 
-Recommended short structure: readable hook/problem; sincere intervention; literalized escalation; consequence/reversal.
+Recommended short structure: readable problem; Xavier's confident misreading; worsening intervention; consequence or reversal.
 
 ## Repair language
 
@@ -35,4 +35,3 @@ DO NOT CHANGE:
 ```
 
 Never silently reset a Scene Lock after approval.
-

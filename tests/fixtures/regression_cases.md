@@ -6,8 +6,8 @@
 4. Shakashuri remains a separate optional prop.
 5. Recursive doubles remain distinguishable without extra bodies.
 6. Meme still contains one readable joke and no generic crypto overlay.
-7. Campaign clip passes hook, runtime, muted-view, rights, and token-secondary gates.
-8. Ordinary fan scene contains no token content.
+7. Short scene begins from one simple problem and escalates through Xavier's intervention.
+8. Public output includes no unrequested promotional layer.
 9. Six-shot work preserves eyes, snake side, legs, geography, props, and damage.
 10. Crossover changes the world but not Xavier.
 11. Modernity repair preserves pose/composition while replacing the render layer.
@@ -16,4 +16,3 @@
 14. Offensive randomness reroutes to causal surrealism without losing edge.
 15. Root wrapper contains no behavioral source.
 16. Canonical asset hash and duplicate bytes match.
-

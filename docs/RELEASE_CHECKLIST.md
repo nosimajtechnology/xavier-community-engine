@@ -5,7 +5,7 @@
 - [ ] Root `SKILL.md` remains a compatibility pointer only.
 - [ ] Nested skill routes each conditional reference and does not duplicate entire manuals.
 - [ ] README and NOTICE carry the unofficial-status disclaimer.
-- [ ] No episodes, clips, dialogue audio, music, scripts, archived models, scraped fan art, private messages, or campaign records are bundled.
+- [ ] No episodes, clips, dialogue audio, music, scripts, archived models, scraped fan art, or private messages are bundled.
 - [ ] `python scripts/validate_package.py` passes.
 - [ ] `python -m unittest discover -s tests -v` passes.
 - [ ] `python scripts/build_release.py` passes twice with the same ZIP hash.
@@ -13,4 +13,3 @@
 - [ ] Changelog and version agree.
 - [ ] Draft pull request contains validation evidence.
 - [ ] User explicitly approves before merge, release, publication, or catalog insertion.
-

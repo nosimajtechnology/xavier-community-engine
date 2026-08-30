@@ -4,7 +4,6 @@ This is an unofficial community creation tool intended to help creators produce 
 
 This project is not official show material and is not affiliated with, sponsored by, or endorsed by Adult Swim, Cartoon Network, Williams Street, Warner Bros. Discovery, PFFR, or other applicable rights holders. The tool does not grant permission to reproduce or distribute copyrighted episodes, footage, audio, scripts, artwork, or third-party material. Users are responsible for ensuring permission or another lawful basis for materials they use.
 
-The repository contains only original engine instructions and scripts plus the user-supplied canonical production reference recorded in [`ASSET_PROVENANCE.md`](ASSET_PROVENANCE.md). It does not bundle episodes, show audio, scripts, archived models, scraped fan art, private approval messages, or campaign records.
+The repository contains only original engine instructions and scripts plus the user-supplied canonical production reference recorded in [`ASSET_PROVENANCE.md`](ASSET_PROVENANCE.md). It does not bundle episodes, show audio, scripts, archived models, scraped fan art, or private approval messages.
 
 A disclaimer clarifies provenance. It does not create a license or guarantee fair use.
-

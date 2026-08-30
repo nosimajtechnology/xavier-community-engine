@@ -25,7 +25,6 @@ The shakashuri is optional and must come from a supplied or verified reference w
 
 ## Failure gate
 
-Reject or repair normal nose/muzzle, two hands, wrong-side or detached snake, duplicated snake, swapped/symmetric eyes, human knees, missing/extra limbs, generic fantasy species, stereotyped regalia, altered hair, modernized clothing, glossy hero build, detailed PBR fur/hair/cloth, or token/logo additions.
+Reject or repair normal nose/muzzle, two hands, wrong-side or detached snake, duplicated snake, swapped/symmetric eyes, human knees, missing/extra limbs, generic fantasy species, stereotyped regalia, altered hair, modernized clothing, glossy hero build, detailed PBR fur/hair/cloth, or unrequested logos.
 
 Treat the canonical file as immutable. Its SHA-256 is `589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731`.
-

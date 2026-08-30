@@ -1,26 +1,37 @@
 # Premise design
 
-## North star
+## Show-shaped starting point
+
+Begin simply:
 
 ```text
-RECOGNIZABLE XAVIER
-+ ORDINARY PROBLEM
-+ SINCERE MISREADING
-+ ONE SEMANTIC HINGE
-+ LITERALIZED CONSEQUENCE
-+ READABLE REVERSAL
+XAVIER ENCOUNTERS A PERSON, PLACE, OR PROBLEM
++ HE DECIDES IT NEEDS HIS WISDOM
++ HE COMPLETELY MISREADS WHAT IS HAPPENING
++ HIS SOLUTION MAKES THE SITUATION WORSE
++ REALITY STARTS OBEYING HIS BAD LOGIC
++ XAVIER MISREADS THE RESULT AND MOVES ON
 ```
 
-Xavier wanders or observes, identifies a problem, intervenes confidently, and makes one contradiction/pun/metaphor physically or socially true. Each beat causes the next. End with a reversal, transformation, identity loop, visible consequence, or calm uncanny beat. Xavier may misread the outcome, claim insight, or move on.
+Xavier is well-meaning, vain, oblivious, and totally certain that his spiritual interpretation is the important one. He may create the problem he believes he is solving. Once he chooses a solution, he commits to it long after the damage is obvious.
 
-Before boarding, answer:
+The story can grow through mistaken identity, circular logic, a false memory, a selfish moral lesson, a physical transformation, or a simple object behaving as Xavier insists it should. A pun may help the escalation, but the plot should not feel like a tidy riddle built around one clever phrase.
 
-- What does Xavier believe he is helping?
-- What single logical mistake drives the scene?
-- How does each beat cause the next?
-- What becomes literal?
-- What is the final readable reversal?
-- Would it remain interesting without a token mention?
+## Before boarding
 
-If the last answer is no, rewrite. Do not substitute random weird nouns, disconnected spectacle, or five unrelated puns for causality.
+Answer:
+
+- What simple thing does Xavier encounter?
+- What does he wrongly believe is happening?
+- Why does he think he is the one who must fix it?
+- What does he do that makes it worse?
+- How does the world begin accepting his mistake as real?
+- What damage, reversal, or identity confusion ends the scene?
+- Why does Xavier still think he helped?
+
+If the answer becomes a list of unrelated weird images, simplify it. If Xavier could be replaced by any random character, strengthen his delusion, certainty, or self-involvement.
+
+## Keep short ideas short
+
+For a still or meme, one mistaken situation is enough. For an 8–15 second scene, use three or four connected actions. Save recursive identities, time loops, and large transformations for ideas that have enough runtime to read clearly.
 
