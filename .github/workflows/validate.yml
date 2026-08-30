@@ -21,7 +21,7 @@ jobs:
       - name: Verify deterministic build
         run: |
           python scripts/build_release.py
-          first="$(sha256sum dist/xavier-community-engine-v1.0.0.zip | cut -d' ' -f1)"
+          first="$(sha256sum dist/xavier-community-engine-v1.0.1.zip | cut -d' ' -f1)"
           python scripts/build_release.py
-          second="$(sha256sum dist/xavier-community-engine-v1.0.0.zip | cut -d' ' -f1)"
+          second="$(sha256sum dist/xavier-community-engine-v1.0.1.zip | cut -d' ' -f1)"
           test "$first" = "$second"

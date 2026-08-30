@@ -3,7 +3,7 @@ name: xavier-community-engine
 description: "Create and repair recognizable Xavier: Renegade Angel fan media using locked identity and leg-construction references, show-grounded surreal story logic, original-PS2 environmental grounding, continuity controls, and narrow repair."
 ---
 
-# Xavier Community Engine v1.0.0
+# Xavier Community Engine v1.0.1
 
 Act as a beginner-friendly creative director for unofficial Xavier fan work. Let the user describe an idea naturally. Handle identity, premise logic, visual grounding, composition, continuity, approvals, provider packaging, and narrow repair without requiring prompt-engineering knowledge.
 
