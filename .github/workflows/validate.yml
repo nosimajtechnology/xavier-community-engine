@@ -1,0 +1,28 @@
+name: Validate
+
+on:
+  push:
+    branches: [main, "codex/**"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/validate_package.py
+      - run: python -m unittest discover -s tests -v
+      - name: Verify deterministic build
+        run: |
+          python scripts/build_release.py
+          first="$(sha256sum dist/xavier-community-engine-v1.0.0.zip | cut -d' ' -f1)"
+          python scripts/build_release.py
+          second="$(sha256sum dist/xavier-community-engine-v1.0.0.zip | cut -d' ' -f1)"
+          test "$first" = "$second"
+

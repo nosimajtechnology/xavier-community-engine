@@ -1,0 +1,5 @@
+interface:
+  display_name: "Xavier Community Engine"
+  short_description: "Create grounded Xavier fan media"
+  default_prompt: "Use $xavier-community-engine to create a short lost-PS2 scene where Xavier sincerely makes an ordinary problem worse through one literalized misunderstanding."
+
