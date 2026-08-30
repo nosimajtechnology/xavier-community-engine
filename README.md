@@ -14,9 +14,15 @@ Tell the Engine what Xavier is doing. It uses locked references and validation r
 - **ChatGPT image generation** for images and storyboards.
 - **A separate video tool** if you want animation. The Engine prepares the prompt, but tools such as Seedance, Kling, or Sora are separate products.
 
+### Dreamina / Seedance compatibility
+
+For a video prompt intended for Seedance through Dreamina, the Engine omits the character name, series title, and rights-holder names from the final provider prompt. It refers to him as `the approved reference character`, `the figure`, or by pronouns instead. The approved image or storyboard still controls identity; this is a delivery-wording change, not a redesign.
+
+If Dreamina restricts an image upload, respect the platform response. As a file-compatibility retry, you may make a minor color correction in PS Express or a similar editor and export a fresh copy before uploading again. A fresh export can change file encoding or metadata, but it is not guaranteed to resolve the restriction and should not be treated as a moderation bypass. If the image remains restricted, use a different video-model platform whose policies permit the project.
+
 ## Install in ChatGPT
 
-1. Download [xavier-community-engine-v1.0.2.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.0.2.zip). **Do not unzip it.**
+1. Download [xavier-community-engine-v1.0.3.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.0.2.zip). **Do not unzip it.**
 2. In ChatGPT, open **Plugins** → **Skills** → **Create** → **Upload from your computer**.
 3. Select the ZIP and start a new chat.
 
@@ -53,7 +59,7 @@ Name a mode or just describe your idea and let the Engine choose.
 
 ## Canonical Xavier reference
 
-This is the Engine's visual authority for Xavier. It keeps his face, eye colors, snake arm, hair, body, clothing, accessories, and deliberately crude 3D construction consistent.
+This is the Engine's visual authority for Xavier. It keeps his face, eye colors, snake arm, hair, body, clothing, accessories, proportions, and deliberately crude 3D construction consistent. The boxed face callout now uses a neutral resting expression. It controls facial detail and expression only; the full-body views control head-to-body scale, so the Engine must not enlarge his head from the close-up.
 
 ![Xavier canonical character reference](./assets/xavier-canonical-reference.png)
 
