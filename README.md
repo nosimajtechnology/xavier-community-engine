@@ -22,7 +22,7 @@ If Dreamina restricts an image upload, respect the platform response. As a file-
 
 ## Install in ChatGPT
 
-1. Download [xavier-community-engine-v1.0.3.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.0.2.zip). **Do not unzip it.**
+1. Download [xavier-community-engine-v1.0.3.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.0.3.zip). **Do not unzip it.**
 2. In ChatGPT, open **Plugins** → **Skills** → **Create** → **Upload from your computer**.
 3. Select the ZIP and start a new chat.
 
@@ -84,7 +84,7 @@ For any frame where the legs are visible:
 3. Allow one narrow leg-only repair while preserving the rest of a passing image.
 4. If that repair fails, stop the attempt instead of repeatedly regenerating or describing the result as canonical.
 
-Do not crop or hide an incorrect leg merely to pass the identity check. Dependable leg consistency will likely require stronger structural pose conditioning or a controlled rigged Xavier asset, neither of which is provided by v1.0.2.
+Do not crop or hide an incorrect leg merely to pass the identity check. Dependable leg consistency will likely require stronger structural pose conditioning or a controlled rigged Xavier asset, neither of which is provided by v1.0.3.
 
 Other identity, visual-style, composition, scene, and continuity features remain useful. Treat leg-visible output as experimental until the underlying generator can consistently obey the reversed-knee construction.
 
