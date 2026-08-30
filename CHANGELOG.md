@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.2 — 2026-08-30
 
 - Refocused public examples on Xavier performing one clear action in one location.
 - Added premise-light routing so visual-first requests do not automatically become scenarios.

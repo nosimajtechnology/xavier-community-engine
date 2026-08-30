@@ -14,7 +14,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME = "xavier-community-engine"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 PACKAGE = ROOT / "skill" / NAME
 ROOT_SKILL = ROOT / "SKILL.md"
 NESTED_SKILL = PACKAGE / "SKILL.md"

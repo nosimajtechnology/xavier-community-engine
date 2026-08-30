@@ -16,7 +16,7 @@ Tell the Engine what Xavier is doing. It keeps him recognizable, finds the right
 
 ## Install in ChatGPT
 
-1. Download [xavier-community-engine-v1.0.1.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.0.1.zip). **Do not unzip it.**
+1. Download [xavier-community-engine-v1.0.2.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.0.2.zip). **Do not unzip it.**
 2. In ChatGPT, open **Plugins** → **Skills** → **Create** → **Upload from your computer**.
 3. Select the ZIP and start a new chat.
 

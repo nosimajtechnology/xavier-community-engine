@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME = "xavier-community-engine"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 PACKAGE = ROOT / "skill" / NAME
 DIST = ROOT / "dist"
 ZIP = DIST / f"{NAME}-v{VERSION}.zip"
