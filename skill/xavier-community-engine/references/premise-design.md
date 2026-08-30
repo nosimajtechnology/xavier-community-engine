@@ -1,5 +1,11 @@
 # Premise design
 
+## Route premise-light requests first
+
+A scene does not require a scenario. If the request is simply Xavier doing one action in one location, keep it that simple. Do not add a reason, problem, misunderstanding, conflict, supporting character, or payoff.
+
+For visual-first work, build progression through pose, movement, camera angle, distance, environment, light, and atmosphere. Use the narrative structure below only when the user requests or clearly implies a story.
+
 ## Show-shaped starting point
 
 Begin simply:

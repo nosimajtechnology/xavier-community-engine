@@ -13,11 +13,11 @@ Approval locks what is already working. If something is wrong, name only that de
 ## Copyable starters
 
 ```text
-@Xavier Community Engine Xavier sees a man arguing with his reflection and tries to separate them. Make it a short PS2-style scene.
+@Xavier Community Engine Xavier walking through a quiet desert town at night. Make it a short PS2-style scene.
 ```
 
 ```text
-@Xavier Community Engine make one captionless image of Xavier adopting an abandoned pothole.
+@Xavier Community Engine make one captionless image of Xavier sitting alone at a diner counter.
 ```
 
 ```text

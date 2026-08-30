@@ -26,10 +26,10 @@ Start with:
 @Xavier Community Engine
 ```
 
-Then describe a simple idea:
+Then describe Xavier doing one clear thing in one location:
 
 ```text
-Xavier sees a man arguing with his reflection and tries to separate them.
+Xavier meditating beside a desert road at sunset.
 ```
 
 If the first image looks right, reply `Approved.` If one detail is wrong, name only that problem:
@@ -69,11 +69,11 @@ The Engine uses this asset only for lower-body topology. It rejects standard for
 
 ## Need an idea?
 
-- Xavier tries to free a man from his own shadow.
-- Xavier adopts a pothole because he thinks it was abandoned.
-- Xavier enters a town where questions are illegal and asks why.
-- Xavier tries to help a lost tourist by moving the road.
-- Xavier finds a scarecrow that wants to quit its job.
+- Xavier walking through a quiet suburban street at night.
+- Xavier sitting alone at a diner counter.
+- Xavier waiting at a bus stop before sunrise.
+- Xavier dancing alone in a dark nightclub.
+- Xavier standing on a mountain summit in heavy wind.
 
 More simple starters are available in [EXAMPLE_IDEAS.md](EXAMPLE_IDEAS.md).
 

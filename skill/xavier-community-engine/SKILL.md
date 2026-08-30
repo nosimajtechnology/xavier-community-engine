@@ -79,9 +79,15 @@ For PS2 outputs, inspect authentic original-platform gameplay or in-engine scree
 
 PS2 references may control environment geometry, gameplay camera, NPC/prop budget, vertex or baked lighting, simple shadows, texture filtering, fog, draw distance, effects, and 4:3 capture feel. They may not redesign Xavier. Xavier's crude show model is already the base-construction authority.
 
+## Keep visual prompts visual
+
+When the user asks for Xavier doing one clear action in one location, preserve that simplicity. Do not invent a problem, motivation, misunderstanding, conflict, supporting character, or plot. Xavier, the action, the environment, and the camera are already enough.
+
+Use pose, movement, expression, changing angles, environmental progression, and atmosphere to create visual interest. This applies especially to stills, character studies, model-viewer bumpers, intros, openings, and atmosphere-first scenes. Add narrative causality only when the user requests or clearly implies a story.
+
 ## Build causal absurdity
 
-Start with a simple person, place, or problem Xavier believes needs him. Let him misunderstand it through grand spiritual certainty, commit fully to the wrong solution, and make the situation stranger or worse. Each beat should follow from what he just did. Reality may eventually accept his bad logic as fact. End on a clear consequence that Xavier misreads as success, blames on someone else, or simply walks away from.
+When a narrative premise is requested, start with a simple person, place, or problem Xavier believes needs him. Let him misunderstand it through grand spiritual certainty, commit fully to the wrong solution, and make the situation stranger or worse. Each beat should follow from what he just did. Reality may eventually accept his bad logic as fact. End on a clear consequence that Xavier misreads as success, blames on someone else, or simply walks away from.
 
 Wordplay supports the action; it does not need to be the entire premise. Avoid tidy one-pun fables, generic inspirational captions, and random collections of surreal objects.
 

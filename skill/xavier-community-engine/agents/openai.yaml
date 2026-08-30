@@ -1,4 +1,4 @@
 interface:
   display_name: "Xavier Community Engine"
   short_description: "Create grounded Xavier fan media"
-  default_prompt: "@Xavier Community Engine create a short PS2-style scene where Xavier confidently misunderstands a simple problem and makes it worse."
+  default_prompt: "@Xavier Community Engine create a short PS2-style scene of Xavier walking through a quiet desert at sunset."
