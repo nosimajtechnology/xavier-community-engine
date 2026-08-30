@@ -53,11 +53,19 @@ Name a mode or just describe your idea and let the Engine choose.
 
 ## Canonical Xavier reference
 
-This is the Engine's visual authority for Xavier. It keeps his face, eye colors, snake arm, backward-hinged legs, hair, body, clothing, accessories, and deliberately crude 3D construction consistent.
+This is the Engine's visual authority for Xavier. It keeps his face, eye colors, snake arm, hair, body, clothing, accessories, and deliberately crude 3D construction consistent.
 
 ![Xavier canonical character reference](./assets/xavier-canonical-reference.png)
 
 Scenes, poses, expressions, props, and settings may change. The Engine should not smooth Xavier into polished modern CGI or redesign him as a different fantasy character.
+
+## Supplemental leg authority
+
+Xavier's legs use one thigh, one true knee hinging backward, one lower leg, one ankle, and one normal flat sneaker. This second reference enlarges the approved strict side-profile construction without changing the canonical sheet.
+
+![Xavier supplemental leg authority](./skill/xavier-community-engine/assets/xavier-leg-authority.png)
+
+The Engine uses this asset only for lower-body topology. It rejects standard forward human knees, animal hocks, extra segments, and exaggerated curved legs before expanding a scene.
 
 ## Need an idea?
 
@@ -82,4 +90,3 @@ _Xavier: Renegade Angel_ and related character names, designs, imagery, footage,
 Do not upload or redistribute full episodes, ripped dialogue, show music, scripts, or artwork you do not have permission to use. This tool does not provide financial advice, price targets, or return promises.
 
 Learn more about [Nosimaj Media](https://nosimaj.com).
-

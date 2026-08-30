@@ -19,6 +19,8 @@ PACKAGE = ROOT / "skill" / NAME
 ROOT_SKILL = ROOT / "SKILL.md"
 NESTED_SKILL = PACKAGE / "SKILL.md"
 EXPECTED_ASSET_SHA = "589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731"
+EXPECTED_LEG_ASSET_SHA = "6b63751bd5453783c03b1199f77c9f21279dc9008ba08dea287bdec55d869e00"
+LEG_ASSET = PACKAGE / "assets" / "xavier-leg-authority.png"
 ZIP = ROOT / "dist" / f"{NAME}-v{VERSION}.zip"
 SUMS = ROOT / "SHA256SUMS"
 LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
@@ -36,6 +38,7 @@ REQUIRED_REPOSITORY = (
 
 REQUIRED_PACKAGE = (
     "SKILL.md", "agents/openai.yaml", "assets/xavier-canonical-reference.png",
+    "assets/xavier-leg-authority.png",
     "references/canon.md", "references/community-tone.md", "references/modes.md",
     "references/workflows.md", "references/continuity.md",
     "references/rendering-grounding.md", "references/premise-design.md",
@@ -129,9 +132,14 @@ def validate_core() -> None:
                 fail(f"{label} missing disclaimer phrase {phrase!r}")
 
     provenance = (ROOT / "ASSET_PROVENANCE.md").read_text(encoding="utf-8")
-    fixture = (ROOT / "tests" / "fixtures" / "canonical_sha256.txt").read_text(encoding="utf-8").strip()
-    if EXPECTED_ASSET_SHA not in provenance or fixture != EXPECTED_ASSET_SHA:
+    canonical_fixture = (ROOT / "tests" / "fixtures" / "canonical_sha256.txt").read_text(encoding="utf-8").strip()
+    leg_fixture = (ROOT / "tests" / "fixtures" / "leg_authority_sha256.txt").read_text(encoding="utf-8").strip()
+    if EXPECTED_ASSET_SHA not in provenance or canonical_fixture != EXPECTED_ASSET_SHA:
         fail("canonical hash is absent or inconsistent in provenance/fixture")
+    if EXPECTED_LEG_ASSET_SHA not in provenance or leg_fixture != EXPECTED_LEG_ASSET_SHA:
+        fail("leg-authority hash is absent or inconsistent in provenance/fixture")
+    if digest(LEG_ASSET) != EXPECTED_LEG_ASSET_SHA:
+        fail("supplemental leg-authority hash mismatch")
 
     subprocess.run([sys.executable, str(ROOT / "scripts" / "verify_canonical_asset.py")], check=True)
 
@@ -152,6 +160,7 @@ def expected_sums() -> list[str]:
     paths = [
         ROOT / "assets" / "xavier-canonical-reference.png",
         PACKAGE / "assets" / "xavier-canonical-reference.png",
+        PACKAGE / "assets" / "xavier-leg-authority.png",
         ZIP,
     ]
     return [f"{digest(path)}  {path.relative_to(ROOT).as_posix()}" for path in paths]

@@ -55,6 +55,7 @@ def main() -> None:
     paths = [
         ROOT / "assets" / "xavier-canonical-reference.png",
         PACKAGE / "assets" / "xavier-canonical-reference.png",
+        PACKAGE / "assets" / "xavier-leg-authority.png",
         ZIP,
     ]
     SUMS.write_text(
@@ -68,4 +69,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
