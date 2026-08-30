@@ -4,7 +4,7 @@ Create a model-neutral motion brief first. Apply a named provider only after sto
 
 Preserve, in order:
 
-1. canonical reference authority and exact identity mapping
+1. canonical identity authority and supplemental leg-topology authority
 2. duration, aspect ratio, and ordered shot progression
 3. camera and character action
 4. continuity, scene geography, and end-state handoff
@@ -13,9 +13,10 @@ Preserve, in order:
 7. decisive negatives
 8. atmosphere and decorative detail
 
-Never remove the anatomical-left snake arm, right-eye cyan/left-eye brown mapping, backward-hinged legs, shot order, geography, rendering target, or an explicit no-music constraint during compression.
+Never remove the anatomical-left snake arm, right-eye cyan/left-eye brown mapping, single backward-hinging knee per leg, shot order, geography, rendering target, or an explicit no-music constraint during compression.
+
+When legs are visible, preserve one thigh, one true knee, one lower leg, one ankle, and one normal flat sneaker per leg. Do not compress this into vague terms such as `bird-like legs`; retain the explicit topology and rejection of standard forward human knees, animal hocks, and extra segments.
 
 Do not invent provider features, field names, duration limits, image counts, or character limits. Use current verified documentation or a limit the user provides. If asked for an exact character limit, report the final count.
 
-For image-to-video, say which approved image or storyboard is the visual authority. Prevent re-costuming, re-lighting, body mutation, identity interpolation, camera-axis jumps, and new unrequested text/logos.
-
+For image-to-video, state which approved image or storyboard is the immediate visual authority and keep both bundled assets available for anatomy repair. Prevent re-costuming, re-lighting, body mutation, identity interpolation, knee-direction changes, camera-axis jumps, and new unrequested text/logos.
