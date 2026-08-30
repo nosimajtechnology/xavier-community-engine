@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.1 — 2026-08-30
 
 - Added a supplemental strict side-profile leg authority without altering the locked canonical Xavier sheet.
 - Replaced vague `bird-like legs` language with an explicit one-thigh, one-knee, one-lower-leg plantigrade topology.
