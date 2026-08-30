@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.3 — 2026-08-30
+
+- Replaced only the boxed canonical face callout with a neutral resting expression while preserving every pixel outside that region.
+- Made the full-body views authoritative for head-to-body scale and added explicit oversized-head rejection.
+- Added Dreamina/Seedance name-safe video-prompt delivery that omits character, series, and rights-holder names without weakening identity locks.
+- Added a cautious fresh-export compatibility retry and a different-provider fallback when Dreamina restrictions persist.
+- Updated the canonical integrity hash and release validation fixtures.
+
 ## 1.0.2 — 2026-08-30
 
 - Refocused public examples on Xavier performing one clear action in one location.
