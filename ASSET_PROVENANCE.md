@@ -2,10 +2,10 @@
 
 ## `xavier-canonical-reference.png`
 
-- **SHA-256:** `589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731`
+- **SHA-256:** `5a7a68fee213227f95d67b3e2643b84e0176b4076891ed94857a34e7a8ffe82c`
 - **Supplier:** Nosimaj Media project owner
 - **Supplied:** 2026-08-30
-- **Source:** Canonical reference attached directly for Xavier Community Engine v1.0 implementation
+- **Source:** Canonical reference supplied for v1.0 and explicitly revised for v1.0.3 with a neutral boxed face callout; full-body views remain unchanged
 - **Intended use:** Immutable character-identity and base-construction authority inside this engine
 - **Authority class:** Canonical production reference
 - **Rights note:** Inclusion does not transfer or claim rights to Xavier: Renegade Angel or any underlying third-party intellectual property. Use is limited to this unofficial community creation workflow and remains subject to applicable rights.

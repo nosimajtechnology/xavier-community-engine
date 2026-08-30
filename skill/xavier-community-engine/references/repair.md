@@ -18,6 +18,8 @@ Common narrow repairs:
 
 - Preserve framing/action; restore anatomical-left snake arm.
 - Preserve face construction; restore anatomical-right cyan eye and anatomical-left brown eye.
+- Preserve the scene; restore the neutral resting expression unless a different emotion was requested.
+- Preserve the full body; restore the compact approved head-to-body scale and do not use the face callout as proportion authority.
 - Keep Xavier and composition; restore the single backward-hinging knee on both legs.
 - Keep pose/geography; remove PBR and rebuild light/materials as period-simple PS2 rendering.
 - Preserve the first beats; replace a random ending with a consequence caused by Xavier's own intervention.

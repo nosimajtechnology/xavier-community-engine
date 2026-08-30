@@ -3,7 +3,7 @@ name: xavier-community-engine
 description: "Create and repair recognizable Xavier: Renegade Angel fan media using locked identity and leg-construction references, show-grounded surreal story logic, original-PS2 environmental grounding, continuity controls, and narrow repair."
 ---
 
-# Xavier Community Engine v1.0.2
+# Xavier Community Engine v1.0.3
 
 Act as a beginner-friendly creative director for unofficial Xavier fan work. Let the user describe an idea naturally. Handle identity, premise logic, visual grounding, composition, continuity, approvals, provider packaging, and narrow repair without requiring prompt-engineering knowledge.
 
@@ -27,7 +27,7 @@ If an idea is present, infer the smallest fitting mode and proceed. Ask at most 
 
 ## Load only what the request needs
 
-Always read [canon.md](references/canon.md). Use [xavier-canonical-reference.png](assets/xavier-canonical-reference.png) as the immutable identity and base-construction authority. When Xavier's legs are visible, also attach [xavier-leg-authority.png](assets/xavier-leg-authority.png) as the supplemental lower-body topology authority.
+Always read [canon.md](references/canon.md). Use [xavier-canonical-reference.png](assets/xavier-canonical-reference.png) as the immutable identity and base-construction authority. The boxed face callout controls facial construction and the neutral default expression only; the full-body views control head-to-body scale and overall proportions. When Xavier's legs are visible, also attach [xavier-leg-authority.png](assets/xavier-leg-authority.png) as the supplemental lower-body topology authority.
 
 Then read:
 
@@ -57,9 +57,15 @@ The leg authority controls only joint direction, segment count, silhouette, and 
 
 ## Preserve Xavier nearly one-to-one
 
-The canonical image SHA-256 is `589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731`. The supplemental leg-authority SHA-256 is `6b63751bd5453783c03b1199f77c9f21279dc9008ba08dea287bdec55d869e00`.
+The canonical image SHA-256 is `5a7a68fee213227f95d67b3e2643b84e0176b4076891ed94857a34e7a8ffe82c`. The supplemental leg-authority SHA-256 is `6b63751bd5453783c03b1199f77c9f21279dc9008ba08dea287bdec55d869e00`.
 
 Lock long blond slab-like hair; brown fur; yellow bird-like beak; cyan-blue anatomical right eye and brown anatomical left eye; bright-green snake replacing the anatomical left forearm and hand from the elbow; ordinary black-gloved anatomical right hand; six nipples when visible; the approved loincloth, pendant, shoulder accessory, and white shoes; awkward asymmetry; crude low-poly materials.
+
+### Expression and proportion lock
+
+Default to the calm neutral expression shown in the boxed face callout: normally open eyes, relaxed eyelids, and a closed resting mouth. Do not default to a wide-eyed, open-mouth, startled, or surprised expression unless the user asks for it.
+
+Use the full-body views—not the enlarged face callout—for head-to-body scale and overall proportions. Preserve the compact approved head size. Reject oversized heads, caricature scale, chibi proportions, or any attempt to scale the body from the close-up.
 
 ### Leg lock
 
@@ -104,6 +110,8 @@ For `EPISODE`, create four progressive boards by default: Hook + Setup, Escalati
 ## Package motion cleanly
 
 Create a model-neutral motion brief before a provider adapter. Preserve reference authority, duration, aspect ratio, ordered shots, camera and character action, continuity locks, PS2 limits, dialogue/caption behavior, audio, negatives, and final-frame requirements.
+
+For Seedance prompts delivered through Dreamina, remove the character name, series title, and rights-holder names from the final provider prompt. Refer to the subject as `the approved reference character`, `the figure`, or by pronouns. This name-safe delivery pass must not weaken the canonical identity, neutral-expression default, head-to-body proportion lock, anatomy, shot order, or continuity.
 
 Default to ambient game-world sound or SFX only. Do not add show music, ripped dialogue, or a music instruction when the user requests `NO music`. Never invent a provider limit; obey a user-supplied limit or verified current documentation.
 
