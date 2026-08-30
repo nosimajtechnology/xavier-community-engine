@@ -4,7 +4,7 @@ An easy creative tool for making original Xavier images, memes, PS2-style scenes
 
 You do not need to know prompting.
 
-Tell the Engine what Xavier is doing. It keeps him recognizable, finds the right old-game visual references, creates the first image, keeps scenes consistent, and prepares the animation prompt when you want video.
+Tell the Engine what Xavier is doing. It uses locked references and validation rules to keep him recognizable, finds the right old-game visual references, creates the first image, keeps scenes consistent, and prepares the animation prompt when you want video. Backward-hinged leg anatomy remains a known generator limitation; see [Current leg limitation](#current-leg-limitation).
 
 > **Unofficial community creation tool for original Xavier fan works. Not official show material. Nosimaj Media does not own or claim rights to _Xavier: Renegade Angel_ or the original series.**
 
@@ -65,7 +65,22 @@ Xavier's legs use one thigh, one true knee hinging backward, one lower leg, one 
 
 ![Xavier supplemental leg authority](./skill/xavier-community-engine/assets/xavier-leg-authority.png)
 
-The Engine uses this asset only for lower-body topology. It rejects standard forward human knees, animal hocks, extra segments, and exaggerated curved legs before expanding a scene.
+The Engine instructs the image generator to use this asset only for lower-body topology and to reject standard forward human knees, animal hocks, extra segments, and exaggerated curved legs. This improves the guidance and makes failures easier to identify, but it does not guarantee that the generator will follow the topology.
+
+## Current leg limitation
+
+Current image generators often normalize Xavier's backward-hinged knees into standard human legs even when both authority images, explicit topology rules, negative constraints, and a narrow repair prompt are supplied. In testing, correct results have been intermittent rather than controllable. Prompting and reference images alone are therefore not reliable enough for guaranteed, leg-critical production.
+
+For any frame where the legs are visible:
+
+1. Inspect the knee direction before approving the frame.
+2. Reject forward human knees, animal hocks, extra joints, curved segments, or mismatched leg rigs.
+3. Allow one narrow leg-only repair while preserving the rest of a passing image.
+4. If that repair fails, stop the attempt instead of repeatedly regenerating or describing the result as canonical.
+
+Do not crop or hide an incorrect leg merely to pass the identity check. Dependable leg consistency will likely require stronger structural pose conditioning or a controlled rigged Xavier asset, neither of which is provided by v1.0.2.
+
+Other identity, visual-style, composition, scene, and continuity features remain useful. Treat leg-visible output as experimental until the underlying generator can consistently obey the reversed-knee construction.
 
 ## Need an idea?
 
