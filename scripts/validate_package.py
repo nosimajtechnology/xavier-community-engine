@@ -14,11 +14,11 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME = "xavier-community-engine"
-VERSION = "1.0.2"
+VERSION = "1.0.3"
 PACKAGE = ROOT / "skill" / NAME
 ROOT_SKILL = ROOT / "SKILL.md"
 NESTED_SKILL = PACKAGE / "SKILL.md"
-EXPECTED_ASSET_SHA = "589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731"
+EXPECTED_ASSET_SHA = "5a7a68fee213227f95d67b3e2643b84e0176b4076891ed94857a34e7a8ffe82c"
 EXPECTED_LEG_ASSET_SHA = "6b63751bd5453783c03b1199f77c9f21279dc9008ba08dea287bdec55d869e00"
 LEG_ASSET = PACKAGE / "assets" / "xavier-leg-authority.png"
 ZIP = ROOT / "dist" / f"{NAME}-v{VERSION}.zip"
