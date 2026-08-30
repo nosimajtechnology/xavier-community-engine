@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Refocused public examples on Xavier performing one clear action in one location.
+- Added premise-light routing so visual-first requests do not automatically become scenarios.
+
 ## 1.0.1 — 2026-08-30
 
 - Added a supplemental strict side-profile leg authority without altering the locked canonical Xavier sheet.
