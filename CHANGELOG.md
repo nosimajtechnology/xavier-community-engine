@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.2.2 — 2026-09-04
+
+- Consolidated Late-Z H3 Max R2V around the approved Late-Z Xavier sheet as
+  `Image 1` and the only default uploaded reference.
+- Preserved Late-Z I2V, T2V, provider fields, and the existing non-Late-Z
+  canonical-plus-leg reference architecture.
+- Added the approved Late-Z reference sheet to the GitHub README.
+
+## 1.2.1 — 2026-09-04
+
+- Added the broadcast-grounded Late-Z Battle Cel adapter and approved Xavier
+  translation sheet.
+- Added H3 Max Classic Control (I2V), Direct Explore (T2V), and Character Lock
+  (R2V) routes while preserving Xavier's anatomy safeguards.
+
 ## 1.0.3 — 2026-08-30
 
 - Replaced only the boxed canonical face callout with a neutral resting expression while preserving every pixel outside that region.

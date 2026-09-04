@@ -4,7 +4,7 @@
 
 Use `../assets/xavier-canonical-reference.png` for character identity and base construction. When Xavier's legs are visible, also use `../assets/xavier-leg-authority.png` for lower-body joint direction and segment topology.
 
-The canonical sheet controls the face, body, costume, asymmetry, materials, and overall proportions. Within it, the boxed face callout controls facial construction and the neutral default expression only; the full-body views control head-to-body scale and overall proportions. Never use the enlarged callout as scale authority. The leg authority controls only the construction from the hips through the shoes. It does not authorize redesign above the waist. Approved project frames override both assets only for the state of the current scene, never for Xavier's underlying anatomy.
+The canonical sheet controls the face, body, costume, asymmetry, materials, and overall proportions. The leg authority controls only the construction from the hips through the shoes. It does not authorize redesign above the waist. Approved project frames override both assets only for the state of the current scene, never for Xavier's underlying anatomy.
 
 ## Locked mapping
 
@@ -17,8 +17,6 @@ The canonical sheet controls the face, body, costume, asymmetry, materials, and 
 - Six nipples when the torso angle and crop make them visible.
 - Preserve the approved loincloth/apron, pendant, shoulder accessory, hair bead/feather detail, and white shoes.
 - Preserve crude low-poly planes, simple diffuse texture logic, stiffness, and visual discomfort.
-- Default expression: calm and neutral, with normally open eyes, relaxed eyelids, and a closed resting mouth.
-- Preserve the compact head-to-body scale shown by the full-body views; never enlarge the head from the face callout.
 
 For front-facing views, the snake appears on image-right and the cyan eye on image-left. For back-facing views, the snake appears on image-left. Determine sides anatomically, never from screen position alone.
 
@@ -46,9 +44,9 @@ The shakashuri is optional and must come from a supplied or verified reference w
 
 ## Failure gate
 
-Reject or repair normal nose/muzzle, two hands, wrong-side or detached snake, duplicated snake, swapped/symmetric eyes, an unrequested wide-eyed/open-mouth surprised expression, an oversized head or caricature head-to-body ratio, forward human knees, animal hocks, ambiguous visible knee direction, missing/extra limbs, generic fantasy species, stereotyped regalia, altered hair, modernized clothing, glossy hero build, detailed PBR fur/hair/cloth, or unrequested logos.
+Reject or repair normal nose/muzzle, two hands, wrong-side or detached snake, duplicated snake, swapped/symmetric eyes, forward human knees, animal hocks, ambiguous visible knee direction, missing/extra limbs, generic fantasy species, stereotyped regalia, altered hair, modernized clothing, glossy hero build, detailed PBR fur/hair/cloth, or unrequested logos.
 
 Treat both authority files as immutable:
 
-- canonical identity SHA-256: `5a7a68fee213227f95d67b3e2643b84e0176b4076891ed94857a34e7a8ffe82c`
+- canonical identity SHA-256: `589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731`
 - supplemental leg-authority SHA-256: `6b63751bd5453783c03b1199f77c9f21279dc9008ba08dea287bdec55d869e00`

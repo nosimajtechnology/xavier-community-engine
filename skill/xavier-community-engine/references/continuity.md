@@ -2,6 +2,9 @@
 
 Maintain a compact ledger for every multi-shot task:
 
+- selected style adapter and version, style-local expression preset, motion
+  profile, and assigned identity/anatomy/style/project/motion reference roles
+- transformation pre-state, change-only delta, and post-state when relevant
 - Xavier's anatomical left/right mapping and current screen orientation
 - eye colors, snake arm, hair, costume, accessories, and visible nipples
 - leg rig: one thigh, one backward-hinging knee, one lower leg, one ankle, one normal sneaker per leg
@@ -12,10 +15,12 @@ Maintain a compact ledger for every multi-shot task:
 - prop ownership and location
 - action/momentum state at every cut
 - damage, deformation, expression, and wardrobe state
-- PS2 source roles, rendering ceiling, light, fog, palette, and capture behavior
+- active rendering system, source roles, rendering ceiling, light, fog,
+  palette, capture behavior, and selected-style exclusions
+- selected video route, endpoint, reference order, and prompt-expansion mode
 - dialogue, caption, and audio state
 
-Continuity has four independent dimensions: identity/anatomy, spatial geography, action causality, and rendering. A later shot changes only what the story explicitly changes. A camera-angle change may change the leg silhouette, but never the segment count or knee direction.
+Continuity has four independent dimensions: identity/anatomy, spatial geography, action causality, and rendering. A later shot changes only what the story explicitly changes. A camera-angle change may change the leg silhouette, but never the segment count or knee direction. A provider adapter may change packaging, but never the selected style, reference roles, or protected anatomy.
 
 ## Leg continuity record
 
@@ -31,6 +36,11 @@ Side and three-quarter views must preserve a readable backward hinge. Front and 
 ## Storyboard record
 
 For every shot record duration, inherited start frame, camera motion, exact Xavier action, supporting action, central misunderstanding or visual joke, end state passed forward, continuity checks, and dialogue/caption/audio.
+
+For a registered style adapter, retain its rendering lock, expression preset,
+motion profile, temporal tags, and reference-role firewall in every panel and
+shot. Do not drift toward modern digital anime, promotional art, the flagship
+PS2 build, or another period style.
 
 Recommended short structure: readable problem; Xavier's confident misreading; worsening intervention; consequence or reversal.
 

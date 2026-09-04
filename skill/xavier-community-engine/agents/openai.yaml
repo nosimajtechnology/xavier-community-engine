@@ -1,4 +1,14 @@
 interface:
-  display_name: "Xavier Community Engine"
-  short_description: "Create grounded Xavier fan media"
-  default_prompt: "@Xavier Community Engine create a short PS2-style scene of Xavier walking through a quiet desert at sunset."
+  display_name: Xavier Community Engine
+  short_description: Create grounded Xavier fan media
+  default_prompt: '@Xavier Community Engine create a short PS2-style scene of Xavier
+    walking through a quiet desert at sunset.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -14,10 +14,24 @@
 
 Infer the smallest fitting mode. A one-image request remains one image. `Fix the snake arm` routes to `REPAIR`. `Lost PS2 episode` routes to `EPISODE`.
 
+Honor explicit production commands such as `one image only`, `no video`,
+`prompt only`, `Genesis Frame`, `classic`, `explore`, `H3 Max`, `I2V`, `T2V`,
+`R2V`, `Seedance`, `Kling`, `under 3500 characters`, `NO music`, and `use only
+this storyboard`.
+
+For video work, resolve the creation route after mode and style:
+
+- a Genesis Frame, exact opening image, or classic approval flow uses
+  `CLASSIC CONTROL`
+- text-only exploration uses `DIRECT EXPLORE`
+- recognizable Xavier with free opening composition uses `CHARACTER LOCK`
+
+Use the compact chooser in `SKILL.md` only when video intent is ambiguous.
+
 ## Approval gates
 
 - `REFERENCE`: inspect sources, generate one reference, explicitly approve before locking the hash.
 - `STILL`/`MEME`: a single image may be the final output after QA.
-- multi-shot modes: Genesis Frame approval before boarding.
-- provider prompt: storyboard approval first unless the user explicitly requests prompt-only or supplies an already approved board.
+- Classic Control multi-shot modes: Genesis Frame approval before boarding.
+- provider prompt: storyboard approval first when the selected route includes a storyboard, unless the user explicitly requests prompt-only or supplies an already approved board.
 - `EPISODE`: approve each progressive board before the next.

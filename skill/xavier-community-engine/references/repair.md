@@ -24,6 +24,10 @@ Common narrow repairs:
 - Keep pose/geography; remove PBR and rebuild light/materials as period-simple PS2 rendering.
 - Preserve the first beats; replace a random ending with a consequence caused by Xavier's own intervention.
 - Remove unrequested captions or logos while preserving the scene.
+- Preserve composition and identity; restore the selected style adapter's line,
+  cel paint, temporal rhythm, grain, and exclusions without changing the action.
+- When the Late-Z snake terminus becomes a green hand, remove fingers and
+  restore the complete snake head on the anatomical-left forearm only.
 
 ## Standard-human-leg repair
 
@@ -41,3 +45,9 @@ Do not add a forward human knee, animal hock, second bend, extra segment, S-curv
 ```
 
 A leg-visible result still showing standard human knees fails repair. Do not approve or expand it. If one layer failed, use `LOCK / CHANGE ONLY / DO NOT CHANGE`. If the entire scene is modern, lock composition and action, then regenerate the environment/render stack under the approved PS2 contract. Do not alter either authority asset.
+
+When a registered adapter is active and the whole render stack is wrong, lock
+identity, anatomy, composition, and action, then rebuild the rendering stack
+under that adapter rather than the PS2 contract. A route change is explicit:
+T2V to R2V for identity/anatomy drift, or R2V to Classic Control when opening
+composition and geography must be fixed.

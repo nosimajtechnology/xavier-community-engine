@@ -20,6 +20,5 @@ jobs:
       - uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/xavier-community-engine-v1.0.3.zip
+            dist/xavier-community-engine-v1.2.2.zip
             SHA256SUMS
-

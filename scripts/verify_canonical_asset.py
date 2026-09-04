@@ -7,7 +7,7 @@ import hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-EXPECTED = "5a7a68fee213227f95d67b3e2643b84e0176b4076891ed94857a34e7a8ffe82c"
+EXPECTED = "589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731"
 ASSETS = (
     ROOT / "assets" / "xavier-canonical-reference.png",
     ROOT / "skill" / "xavier-community-engine" / "assets" / "xavier-canonical-reference.png",
@@ -35,4 +35,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

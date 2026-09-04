@@ -12,7 +12,7 @@ Tell the Engine what Xavier is doing. It uses locked references and validation r
 
 - **A paid ChatGPT plan with Skills available.** Managed workspaces may require admin approval.
 - **ChatGPT image generation** for images and storyboards.
-- **A separate video tool** if you want animation. The Engine prepares the prompt, but tools such as Seedance, Kling, or Sora are separate products.
+- **A separate video tool** if you want animation. The Engine prepares the prompt, but tools such as fal.ai MiniMax H3 Max, Seedance, Kling, or Sora are separate products.
 
 ### Dreamina / Seedance compatibility
 
@@ -22,7 +22,7 @@ If Dreamina restricts an image upload, respect the platform response. As a file-
 
 ## Install in ChatGPT
 
-1. Download [xavier-community-engine-v1.0.3.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.0.3.zip). **Do not unzip it.**
+1. Download [xavier-community-engine-v1.2.2.zip](https://github.com/nosimajtechnology/xavier-community-engine/releases/latest/download/xavier-community-engine-v1.2.2.zip). **Do not unzip it.**
 2. In ChatGPT, open **Plugins** → **Skills** → **Create** → **Upload from your computer**.
 3. Select the ZIP and start a new chat.
 
@@ -57,6 +57,18 @@ The snake arm is on the wrong side. Fix only that.
 
 Name a mode or just describe your idea and let the Engine choose.
 
+## Late-Z and H3 Max
+
+The Engine includes a broadcast-grounded **Late-Z Battle Cel** adapter and the
+approved Late-Z Xavier sheet. For fal.ai MiniMax H3 Max video:
+
+- **Classic Control / I2V** uploads only the approved Genesis Frame as the
+  literal opening frame; the storyboard remains planning authority.
+- **Direct Explore / T2V** uses a complete text description and no references.
+- **Character Lock / R2V** uses the approved Late-Z Xavier sheet as `Image 1`
+  and the only default reference when Late-Z is active. Other styles retain
+  their existing reference setup.
+
 ## Canonical Xavier reference
 
 This is the Engine's visual authority for Xavier. It keeps his face, eye colors, snake arm, hair, body, clothing, accessories, proportions, and deliberately crude 3D construction consistent. The boxed face callout now uses a neutral resting expression. It controls facial detail and expression only; the full-body views control head-to-body scale, so the Engine must not enlarge his head from the close-up.
@@ -73,6 +85,12 @@ Xavier's legs use one thigh, one true knee hinging backward, one lower leg, one 
 
 The Engine instructs the image generator to use this asset only for lower-body topology and to reject standard forward human knees, animal hocks, extra segments, and exaggerated curved legs. This improves the guidance and makes failures easier to identify, but it does not guarantee that the generator will follow the topology.
 
+## Style reference sheets
+
+### Late-Z Battle Cel
+
+![Xavier Late-Z Battle Cel character sheet](./skill/xavier-community-engine/assets/style-adapters/late-z-battle-cel/xavier-late-z-character-sheet-v1.png)
+
 ## Current leg limitation
 
 Current image generators often normalize Xavier's backward-hinged knees into standard human legs even when both authority images, explicit topology rules, negative constraints, and a narrow repair prompt are supplied. In testing, correct results have been intermittent rather than controllable. Prompting and reference images alone are therefore not reliable enough for guaranteed, leg-critical production.
@@ -84,7 +102,7 @@ For any frame where the legs are visible:
 3. Allow one narrow leg-only repair while preserving the rest of a passing image.
 4. If that repair fails, stop the attempt instead of repeatedly regenerating or describing the result as canonical.
 
-Do not crop or hide an incorrect leg merely to pass the identity check. Dependable leg consistency will likely require stronger structural pose conditioning or a controlled rigged Xavier asset, neither of which is provided by v1.0.3.
+Do not crop or hide an incorrect leg merely to pass the identity check. Dependable leg consistency will likely require stronger structural pose conditioning or a controlled rigged Xavier asset, neither of which is provided by v1.2.2.
 
 Other identity, visual-style, composition, scene, and continuity features remain useful. Treat leg-visible output as experimental until the underlying generator can consistently obey the reversed-knee construction.
 

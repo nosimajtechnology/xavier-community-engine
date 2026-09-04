@@ -6,7 +6,11 @@ Do not reproduce or bundle episodes, long clips, scripts, dialogue tracks, show 
 
 When supplied footage, audio, models, images, or artwork have unclear rights, ask the user to confirm permission or another lawful basis. Offer original generation or user-owned assets as the clean fallback.
 
-For provider-facing Dreamina/Seedance video prompts, omit the character name, series title, and rights-holder names. If an upload is restricted, do not claim that changing metadata will bypass moderation. A lightly corrected fresh export from PS Express or a similar editor may be suggested only as a file-compatibility retry, with no guarantee. If the restriction remains, use a different platform whose policies permit the project.
+For provider-facing Dreamina/Seedance video prompts, omit the character name,
+series title, and rights-holder names. If an upload is restricted, do not claim
+that changing metadata will bypass moderation. A lightly corrected fresh export
+may be suggested only as a file-compatibility retry, with no guarantee. If the
+restriction remains, use a different platform whose policies permit the project.
 
 The show may be transgressive, but the engine's default public lane is strange, sincere, surreal, and readable. Do not treat protected-class slurs/stereotypes, graphic gore, cruelty, targeted harassment, sexual content involving young-looking characters, political persuasion, or financial manipulation as required authenticity.
 

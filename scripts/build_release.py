@@ -12,12 +12,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME = "xavier-community-engine"
-VERSION = "1.0.3"
+VERSION = "1.2.2"
 PACKAGE = ROOT / "skill" / NAME
 DIST = ROOT / "dist"
 ZIP = DIST / f"{NAME}-v{VERSION}.zip"
 SUMS = ROOT / "SHA256SUMS"
-FIXED_TIME = (2026, 8, 30, 0, 0, 0)
+FIXED_TIME = (2026, 9, 4, 0, 0, 0)
 
 
 def digest(path: Path) -> str:
@@ -56,6 +56,7 @@ def main() -> None:
         ROOT / "assets" / "xavier-canonical-reference.png",
         PACKAGE / "assets" / "xavier-canonical-reference.png",
         PACKAGE / "assets" / "xavier-leg-authority.png",
+        PACKAGE / "assets" / "style-adapters" / "late-z-battle-cel" / "xavier-late-z-character-sheet-v1.png",
         ZIP,
     ]
     SUMS.write_text(

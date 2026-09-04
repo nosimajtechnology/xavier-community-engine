@@ -14,13 +14,15 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME = "xavier-community-engine"
-VERSION = "1.0.3"
+VERSION = "1.2.2"
 PACKAGE = ROOT / "skill" / NAME
 ROOT_SKILL = ROOT / "SKILL.md"
 NESTED_SKILL = PACKAGE / "SKILL.md"
-EXPECTED_ASSET_SHA = "5a7a68fee213227f95d67b3e2643b84e0176b4076891ed94857a34e7a8ffe82c"
+EXPECTED_ASSET_SHA = "589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731"
 EXPECTED_LEG_ASSET_SHA = "6b63751bd5453783c03b1199f77c9f21279dc9008ba08dea287bdec55d869e00"
+EXPECTED_LATE_Z_ASSET_SHA = "2ceee8b0607bf2ba1b387f088ee237f73138c538976ac5f0067ff3af89306706"
 LEG_ASSET = PACKAGE / "assets" / "xavier-leg-authority.png"
+LATE_Z_ASSET = PACKAGE / "assets" / "style-adapters" / "late-z-battle-cel" / "xavier-late-z-character-sheet-v1.png"
 ZIP = ROOT / "dist" / f"{NAME}-v{VERSION}.zip"
 SUMS = ROOT / "SHA256SUMS"
 LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
@@ -39,12 +41,14 @@ REQUIRED_REPOSITORY = (
 REQUIRED_PACKAGE = (
     "SKILL.md", "agents/openai.yaml", "assets/xavier-canonical-reference.png",
     "assets/xavier-leg-authority.png",
+    "assets/style-adapters/late-z-battle-cel/xavier-late-z-character-sheet-v1.png",
     "references/canon.md", "references/community-tone.md", "references/modes.md",
     "references/workflows.md", "references/continuity.md",
     "references/rendering-grounding.md", "references/premise-design.md",
     "references/dialogue-and-wordplay.md",
     "references/safety-and-rights.md", "references/model-adapters.md",
-    "references/repair.md",
+    "references/model-adapters/fal-h3-max.md", "references/style-adapters.md",
+    "references/style-adapters/late-z-battle-cel.md", "references/repair.md",
 )
 
 PROHIBITED_SUFFIXES = {
@@ -140,6 +144,8 @@ def validate_core() -> None:
         fail("leg-authority hash is absent or inconsistent in provenance/fixture")
     if digest(LEG_ASSET) != EXPECTED_LEG_ASSET_SHA:
         fail("supplemental leg-authority hash mismatch")
+    if digest(LATE_Z_ASSET) != EXPECTED_LATE_Z_ASSET_SHA:
+        fail("Late-Z character-sheet hash mismatch")
 
     subprocess.run([sys.executable, str(ROOT / "scripts" / "verify_canonical_asset.py")], check=True)
 
@@ -161,6 +167,7 @@ def expected_sums() -> list[str]:
         ROOT / "assets" / "xavier-canonical-reference.png",
         PACKAGE / "assets" / "xavier-canonical-reference.png",
         PACKAGE / "assets" / "xavier-leg-authority.png",
+        LATE_Z_ASSET,
         ZIP,
     ]
     return [f"{digest(path)}  {path.relative_to(ROOT).as_posix()}" for path in paths]

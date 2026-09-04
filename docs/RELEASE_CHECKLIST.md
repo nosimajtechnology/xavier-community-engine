@@ -1,7 +1,7 @@
 # Release Checklist
 
 - [ ] Canonical image was explicitly approved and both copies remain byte-identical.
-- [ ] SHA-256 matches `5a7a68fee213227f95d67b3e2643b84e0176b4076891ed94857a34e7a8ffe82c` everywhere.
+- [ ] Canonical SHA-256 matches `589fbf61c98e861d76f5310cb39c2ebe2494a5fd8140c4bf9bbb013c8a8c4731` everywhere.
 - [ ] Root `SKILL.md` remains a compatibility pointer only.
 - [ ] Nested skill routes each conditional reference and does not duplicate entire manuals.
 - [ ] README and NOTICE carry the unofficial-status disclaimer.
