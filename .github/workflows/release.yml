@@ -3,22 +3,67 @@ name: Release asset
 on:
   push:
     tags: ["v*"]
+    branches: ["main"]
+    paths: [".github/workflows/release.yml"]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   release:
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/build_release.py
+      - name: Build the tagged package
+        id: build
+        shell: bash
+        run: |
+          version=$(python -c 'from scripts.build_release import VERSION; print(VERSION)')
+          test "$GITHUB_REF_NAME" = "v$version"
+          python scripts/build_release.py
+          python -c 'from scripts.build_release import ROOT, ZIP; print("package=" + ZIP.relative_to(ROOT).as_posix())' >> "$GITHUB_OUTPUT"
       - run: python -m unittest discover -s tests -v
       - uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/xavier-community-engine-v1.2.2.zip
+            ${{ steps.build.outputs.package }}
             SHA256SUMS
+          fail_on_unmatched_files: true
+
+  stable-download:
+    # Tag runs attach the alias after release. Workflow maintenance and manual
+    # runs repair the latest published release without rebuilding its package.
+    needs: release
+    if: ${{ !cancelled() && (needs.release.result == 'success' || needs.release.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    concurrency:
+      group: xavier-stable-download
+      cancel-in-progress: false
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Publish a verified copy with a permanent filename
+        shell: bash
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" == push && "$GITHUB_REF" == refs/tags/* ]]; then
+            release_tag="$GITHUB_REF_NAME"
+          else
+            release_tag=$(gh api "repos/$GH_REPO/releases/latest" --jq '.tag_name')
+          fi
+          asset="xavier-community-engine-${release_tag}.zip"
+          alias_dir=$(mktemp -d)
+          cd "$alias_dir"
+          gh api "repos/$GH_REPO/releases/tags/$release_tag" > release.json
+          jq -e '.draft == false' release.json > /dev/null
+          digest=$(jq -er --arg asset "$asset" '.assets[] | select(.name == $asset) | .digest // empty' release.json)
+          [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          gh release download "$release_tag" --repo "$GH_REPO" --pattern "$asset" --output xavier-community-engine.zip
+          printf '%s  %s\n' "${digest#sha256:}" xavier-community-engine.zip | sha256sum --check -
+          sha256sum xavier-community-engine.zip > xavier-community-engine.zip.sha256
+          gh release upload "$release_tag" --repo "$GH_REPO" xavier-community-engine.zip xavier-community-engine.zip.sha256 --clobber
